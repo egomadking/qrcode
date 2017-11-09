@@ -48,6 +48,14 @@
 
     var client = new QRClient();
 
+    // QRClient is defined in qrclient.js. Do I want
+    // to make a new QRClient & gut the class to make
+    // it into the worker or do I want to ignore
+    // the class and use the work already done in the qrworker.js?
+
+    // Do I need to make a client?
+    // or will the webworker suffice?
+
     var self = this;
 
     this.currentUrl = undefined;
